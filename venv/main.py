@@ -52,7 +52,7 @@ temperature_label.pack(pady=10, padx=10, side='top')
 
 # Create an Exit button with yellow background and increased width
 exit_button = tk.Button(root, text="Exit", command=exit_application, font=("Montserrat", 12), highlightbackground="#4F6F7E", background="#FFD700", width=25, height= 1)
-exit_button.pack(pady=10,padx=10, side='bottom')
+exit_button.pack(pady=10, side='bottom')
 
 # # Start the UART reading thread
 # uart_thread = threading.Thread(target=read_temperature, daemon=True)
